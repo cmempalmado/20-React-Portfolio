@@ -1,5 +1,4 @@
 # 20-React-Portfolio
-# 20 React: React Portfolio
 
 ## Task
 
