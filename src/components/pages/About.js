@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/style.css';
 
 const styles = {
   bgStyle: {
@@ -9,7 +10,7 @@ const styles = {
 
 export default function About() {
   return (
-    <body style={styles.bgStyle}>
+    <body style={styles.bgStyle} className="header">
     <div>
       <h1>About Page</h1>
       <p>

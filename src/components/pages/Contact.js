@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/style.css';
 
 const styles = {
   bgStyle: {
@@ -10,7 +10,7 @@ const styles = {
 
 export default function Contact() {
   return (
-    <div style={styles.bgStyle}>
+    <div style={styles.bgStyle} className="header">
       <h1 >Contact Page</h1>
       <nav style={styles.bgStyle}>
           <ul id="contactList">
