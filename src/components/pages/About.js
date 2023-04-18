@@ -3,9 +3,13 @@ import '../styles/style.css';
 
 const styles = {
   bgStyle: {
-    background: '#192F66',
-    color: 'white'
-  }
+    background: '#13315c',
+    color: 'white',
+    fontSize: '30px',
+    height: '80vh'
+  },
+  
+  
 };
 
 export default function About() {
@@ -14,8 +18,9 @@ export default function About() {
     <div>
       <h1>About Page</h1>
       <p>
-          Hi! I'm Christian. I am going to be a full-stack developer as I finish my bootcamp at UCI.
-          Here you can see all the projects that I will create as I continue learning how to be a full-stack developer.
+          Hi! I'm Christian. I am a full-stack developer who finished the coding bootcamp at UCI.
+          All the projects in here are the ones that I created throughout my bootcamp plus all the projects I made after the bootcamp. 
+          Everything will be available for viewing as link to deployed application will be added.
       </p>
     </div>
     </body>

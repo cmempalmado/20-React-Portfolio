@@ -2,11 +2,13 @@ import React from 'react';
 
 const styles = {
     bgStyle: {
-      background: '#242A36',
+      background: '#134074',
+      margin: '0'
     },
     headingStyle: {
       fontSize: '80px',
-      background: '#122393'
+      background: '#13315c',
+      margin: '0'
     },
   };
 

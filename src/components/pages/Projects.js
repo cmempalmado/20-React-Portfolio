@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/style.css';
-import FilmFinder from '../../images/project-01-film-finder.jpg';
+import FilmFinder from '../images/project-01-film-finder.jpg';
 
 
 
@@ -25,7 +25,7 @@ export default function Blog() {
                         <div class="Work1">
                             <h4>Film-Finder Project</h4>
                             <a href="https://markkoos.github.io/Film-Finder-Project/">
-                                <img src='FilmFinder' alt="Film-Finder-Project"/>
+                                <img src='../images/project-01-film-finder.jpg' alt="Film-Finder-Project"/>
                                   
                             </a>    
                         </div>
