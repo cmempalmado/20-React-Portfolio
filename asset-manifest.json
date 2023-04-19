@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5236a4ed.css",
+    "main.js": "/static/js/main.095bb72b.js",
+    "static/media/project-01-film-finder.jpg": "/static/media/project-01-film-finder.cc8fbc0eebdd9f6a25de.jpg",
+    "static/media/project-03-bee-my-friend.jpg": "/static/media/project-03-bee-my-friend.2de593f3e93b75b66f4c.jpg",
+    "static/media/Anime-Workout-Project-02.jpg": "/static/media/Anime-Workout-Project-02.5e1007312a6746daf24d.jpg",
+    "index.html": "/index.html",
+    "main.5236a4ed.css.map": "/static/css/main.5236a4ed.css.map",
+    "main.095bb72b.js.map": "/static/js/main.095bb72b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5236a4ed.css",
+    "static/js/main.095bb72b.js"
+  ]
+}
