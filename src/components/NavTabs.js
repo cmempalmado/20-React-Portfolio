@@ -3,13 +3,13 @@ import React from 'react';
 const styles = {
     bgStyle: {
       background: '#134074',
-      margin: '0'
+      fontFamily: 'Comic Sans MS',
+      color: '#ffb703'
     },
-    headingStyle: {
-      fontSize: '80px',
-      background: '#13315c',
-      margin: '0'
-    },
+    fontStyle: {
+      color: '#ffb703'
+    }
+    
   };
 
 function NavTabs({ currentPage, handlePageChange }) {
@@ -19,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          
+          style={styles.fontStyle}
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Home
@@ -27,19 +27,19 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          href="#skills"
+          onClick={() => handlePageChange('Skills')}
+          style={styles.fontStyle}
+          className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Skills
         </a>
       </li>
       <li className="nav-item">
         <a
           href="#projects"
           onClick={() => handlePageChange('Projects')}
-          
+          style={styles.fontStyle}
           className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
           Projects
@@ -49,6 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
+          style={styles.fontStyle}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact

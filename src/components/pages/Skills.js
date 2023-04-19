@@ -20,7 +20,8 @@ const styles = {
     fontFamily: 'New Century Schoolbook, TeX Gyre Schola, serif',
     fontSize: '24px',
     height: '68vh',
-    margin: '0'
+    margin: '0',
+    paddingLeft: '150px'
   },
   footerStyle: {
     backgroundColor: '#8da9c4',
@@ -34,7 +35,7 @@ const styles = {
     width: '100%',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center',   
   },
   paragraph: {
     color: '#f0ebd8',
@@ -46,23 +47,24 @@ const styles = {
   },
 };
 
-export default function Contact() {
+export default function About() {
   return (
+    <body>
     <div>
+        <div >
+          <h1 style={styles.headerStyle}>Skills</h1>
+        </div>
+
+        <div style={styles.bodyStyle}>
+      <li>HTML </li>
+      <li>CSS </li>
+      <li>Javascript </li>
+      <li>C++ </li> 
+      <li>Java </li>     
       
-      <div style={styles.headerStyle} className="header">
-        <h1 >Contact Page</h1>
       </div>
-
-      <div style={styles.bodyStyle}> 
-          <ul id="contactList">
-            <li style={styles.paragraph}>Phone: (111)222-3333</li>
-            <li><a style={styles.paragraph} href="cmempalmado@gmail.com">Email</a></li>
-            <li><a style={styles.paragraph} href="https://github.com/cmempalmado">Github</a></li>
-          </ul>      
-      </div>
-
       <div style={styles.footerStyle}> © Christian Empalmado</div>
     </div>
+    </body>
   );
 }
